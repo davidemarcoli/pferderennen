@@ -68,6 +68,12 @@
 .medientext {
     margin-left: 10%;
     text-decoration: none;
+    transition: 1s;
+}
+
+.medientext:hover {
+    text-decoration: none;
+    transform: scale(1.1, 1.1);
 }
 
 
@@ -145,6 +151,19 @@ Anlass seite
     -webkit-filter: blur(2px);
 }
 
+.parallax-image3 {
+    background-image: url("img/sport_02042018_pferderennenfehraltorf_dku_online_14_.jpg");
+    max-width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 0px;
+    z-index: -100;
+    filter: blur(6px);
+    -webkit-filter: blur(2px);
+}
+
 
 /*Sponsoring
 ============
@@ -162,6 +181,7 @@ Anlass seite
     color: #01A1C7;
     font-size: 6vw;
     animation: move 5s infinite;
+    animation-timing-function: linear;
 }
 
 
@@ -192,7 +212,7 @@ Anlass seite
     }
 }
 
-.karussell-titel: hover {
+.karussell-titel:hover {
     transform: scale(1.05);
 }
 
@@ -267,9 +287,10 @@ Navbar
 }
 
 .navbar li {
-    width: 100%;
-    text-align: right;
-    margin-left: 100%;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .navbar-collapse {
@@ -280,9 +301,12 @@ Navbar
     color: white !important;
 }
 
+.nav-item {
+    margin: 0 !important;
+}
+
 .navbar .dropdown-menu {
     top: 200%;
-    right: 0px !important;
     text-align: center;
     background: #015A6FAA;
     border-radius: 15px;
@@ -303,10 +327,16 @@ Navbar
     color: #28C1E5 !important;
 }
 
-.navbar .responsive-nav {
+.responsive-nav {
     position: absolute;
     width: 0px;
     overflow: hidden;
+    transition: .2s;
+}
+
+.responsive-nav:hover {
+    background: #28C1E5 !important;
+    color: white !important;
 }
 
 
@@ -463,6 +493,16 @@ Responsive
         position: relative;
         width: 100%;
         text-align: center;
+    }
+    .navbar-.:hover {
+        color: white !important;
+    }
+    .navbar li {
+        top: 30px;
+        right: 0;
+    }
+    .navbar-nav {
+        height: 420px;
     }
     .dropdown {
         position: absolute;
