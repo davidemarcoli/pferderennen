@@ -39,9 +39,11 @@
     .Anlass-bild {
         position: relative;
         top: 10em;
-        width: 940.49px;
-        height: 446.88px;
-        box-shadow: 15px 15px rgba(39, 63, 74, 0.1);
+        box-shadow: 15px 15px rgba(96, 131, 219, 0.5);
+    }
+    
+    .Anlass-Titel {
+        margin-bottom: 1em;
     }
     /*
 General
@@ -52,6 +54,10 @@ General
         width: 100%;
         min-height: 100%;
         overflow-x: hidden;
+    }
+    
+    body {
+        width: 100%;
     }
     
     p {
@@ -239,10 +245,12 @@ Section
     
     .index-grid {
         background: white;
-        width: 80%;
+        width: 60%;
         box-shadow: black 0 0 20px;
         border-radius: 15px;
         margin: 0 auto;
+        padding: 20px;
+        text-align: justify;
     }
     /*
 Footer
@@ -253,6 +261,7 @@ Footer
         position: fixed;
         bottom: 0;
         width: 100%;
+        overflow: hidden;
         background: #015A6F;
         color: white;
         overflow: hidden;
