@@ -185,13 +185,13 @@ Anlass seite
      filter: blur(6px);
      -webkit-filter: blur(2px);
  }
- /*Sponsoring
-============
+ /*Sponsoring Seite
+===================
 */
- 
- .karousel_img {
-     width: 100%;
-     height: auto;
+
+ .karousel_imgs {
+     width: 50vh;
+     height: 50vw;
  }
  
  .karussell-titel {
@@ -207,35 +207,77 @@ Anlass seite
 Diagramm
 ========
 */
+
+
+/* Diagramm Titel */
+.diagramm-text-Generalsponsor{
+    position: relative;
+    top: -40em;
+    font-size: 20px;
+}
+
+.diagramm-text-Hauptsponsor{
+    position: relative;
+    top: -30em;
+    font-size: 20px;
+}
+
+.diagramm-text-Rennsponsor{
+    position: relative;
+    top: -20em;
+    font-size: 20px;
+}
+
+.diagramm-text-Sponsor-Bronze{
+    position: relative;
+    top: -10em;
+    font-size: 20px;
+}
+
+.diagramm-text-Kleinsponsor{
+    position: relative;
+    font-size: 20px;
+}
  
+/* Diagramm Kästen */
+
  #diagramm-Generalsponsor {
      background-color: #FFCA43;
      height: 700px;
      text-align: center;
+     position: relative;
  }
  
  #diagramm-Hauptsponsor {
      background-color: #FFCA43;
      height: 600px;
      text-align: center;
+     position: relative;
+     top: 6.20em;   /* immer plus 6.20em */
  }
  
  #diagramm-Rennsponsor {
      background-color: #FFCA43;
      height: 500px;
      text-align: center;
+     position: relative;
+     top: 12.40em;
  }
  
  #diagramm-Sponsor-Bronze {
      background-color: #FFCA43;
      height: 400px;
      text-align: center;
+     position: relative;
+     top: 18.60em;
  }
  
  #diagramm-Klein-sponsor {
      background-color: #FFCA43;
      height: 300px;
      text-align: center;
+     position: relative;
+     top: 24.80em;
  }
  /*
 Sponsortitel animation
