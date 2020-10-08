@@ -30,6 +30,24 @@
 }
 
 
+/*Wetten seite
+==============
+*/
+
+.underconstruction {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.underconstructiontext {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
 /*Medien seite
 ==============
 */
@@ -196,9 +214,9 @@ Anlass seite
 ============
 */
 
-.karousel_img {
-    width: 100%;
-    height: auto;
+.karousel_imgs {
+    width: 50vh;
+    height: 50vw;
 }
 
 .karussell-titel {
@@ -217,34 +235,76 @@ Diagramm
 ========
 */
 
+
+/* Diagramm Titel */
+
+.diagramm-text-Generalsponsor {
+    position: relative;
+    top: -40em;
+    font-size: 20px;
+}
+
+.diagramm-text-Hauptsponsor {
+    position: relative;
+    top: -30em;
+    font-size: 20px;
+}
+
+.diagramm-text-Rennsponsor {
+    position: relative;
+    top: -20em;
+    font-size: 20px;
+}
+
+.diagramm-text-Sponsor-Bronze {
+    position: relative;
+    top: -10em;
+    font-size: 20px;
+}
+
+.diagramm-text-Kleinsponsor {
+    position: relative;
+    font-size: 20px;
+}
+
 #diagramm-Generalsponsor {
     background-color: #FFCA43;
     height: 700px;
     text-align: center;
+    position: relative;
 }
 
 #diagramm-Hauptsponsor {
     background-color: #FFCA43;
     height: 600px;
     text-align: center;
+    position: relative;
+    top: 6.20em;
+    /* immer plus 6.20em */
 }
 
 #diagramm-Rennsponsor {
     background-color: #FFCA43;
     height: 500px;
     text-align: center;
+    position: relative;
+    top: 12.40em;
 }
 
 #diagramm-Sponsor-Bronze {
     background-color: #FFCA43;
     height: 400px;
     text-align: center;
+    position: relative;
+    top: 18.60em;
 }
 
 #diagramm-Klein-sponsor {
     background-color: #FFCA43;
     height: 300px;
     text-align: center;
+    position: relative;
+    top: 24.80em;
 }
 
 
@@ -302,6 +362,7 @@ p {}
 
 a:hover {
     color: #4d92bb;
+    text-decoration: none;
 }
 
 a:active {
@@ -482,15 +543,23 @@ section .backgroundimg {
     padding: 10px;
 }
 
-.index-sponsor img {
+.index-sponsor .sponsor-img {
     width: 100%;
     border: 1px solid black;
+    box-shadow: #000000 0 0 5px;
+    border-radius: 5px;
     transition: .2s;
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
 }
 
-.index-sponsor img:hover {
+.index-sponsor .sponsor-img:hover {
     box-shadow: #28C1E5 .5em .5em;
     transform: translate(-.25em, -.25em);
+    border-radius: 0px;
 }
 
 
