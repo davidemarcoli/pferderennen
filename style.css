@@ -2,7 +2,7 @@
      #rennenbild {
          width: 100%;
      }
- }
+    }
  
  @media (min-width: 768px) {
      #rennenbild {
@@ -23,27 +23,35 @@
 ==============
 */
  
- @media(min-width: 768px) {
-     #internetsponsor {
-         text-align: center;
-         z-index: -1;
-         width: 30%;
-         bottom: 15%;
-         position: absolute;
-     }
- }
+/*
+@media(min-width: 768px) {
+    #internetsponsor {
+        text-align: center;
+        z-index: -1;
+        width: 30%;
+        bottom: 15%;
+        position: absolute;
+    }
+}
+
+@media(max-width: 767px) {
+    #internetsponsor {
+        text-align: center;
+        z-index: -1;
+        width: 50%;
+        margin-bottom: 200px;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+}
+*/
  
- @media(max-width: 767px) {
-     #internetsponsor {
-         text-align: center;
-         z-index: -1;
-         width: 50%;
-         margin-bottom: 200px;
-         margin-left: 10%;
-         margin-right: auto;
-     }
+ .internetsponsor{
+    position: relative;
+    top: 7em;
+    left: 5em;
  }
- 
+
  .medien§ {
      margin-bottom: 125px;
      margin-left: 10%;
@@ -54,7 +62,6 @@
  }
  
  #colmedien,
- #colmedien2,
  #colmedien3 {
      padding: 0 !important;
  }
@@ -67,12 +74,27 @@
      margin-left: 10%;
      text-decoration: none;
      transition: 1s;
+     font-size: 14px;
+ 
  }
  
  .medientext:hover {
      text-decoration: none;
      transform: scale(1.1, 1.1);
  }
+
+ .Springkonkurrenz{
+     position: relative;
+     top: 4em;
+     left:1em;
+     width: 500px;
+ }
+
+ .Springkonkurrenz:hover{
+    transform: scale(1.05);
+ }
+
+
  /*
 Rennen seite
 ============
@@ -93,6 +115,16 @@ Rennen seite
      text-align: center;
      font-family: 'Comfortaa', cursive;
  }
+
+ #rennenbild{
+     position: relative;
+     top:-10em;
+     left: 25em;
+     width: 900px;
+     height: 421.5;
+ }
+
+
  /*
 Anlass seite
 =============
