@@ -314,20 +314,21 @@ Sponsortitel animation
      transform: scale(1.05);
  }
  
- .karussel-icon {
-     color: #01A1C7;
- }
 
  /*
  VIP-Zelt
  ========
  */
 
- .vipzelt-list{
-     margin-bottom: 2em;
+ .vip-zelt-bild:hover{
+    cursor: pointer;
  }
 
-
+.vipzelt-impressionen-text{
+    position: static;
+    top: 50em;
+    left: 20em;
+}
  /*
 General=======
 */
@@ -627,36 +628,6 @@ Responsive
  .padding {
      padding-top: 30px;
  }
- /*
-    .Anlass-bild {
-        position: relative;
-
-               top: 3em;
-    
-    .Anlass-Titel {
-        margin-bottom: 1em;
-  }
-     
-      */
- /*
-Gene    ral
-    =======
-    
-/*html {
-    width: 100%;
-    min-height: 100%;
-    overflow-x: hidden;
-}
-
-body {
-    width: 100%;
-}
-        background: #015A6F;
-    z-index: 10;
-    box-shadow: black 0 0 10px;
-}
-
-*/
  
  .navbar img {
      width: 15%;
