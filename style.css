@@ -22,9 +22,9 @@
 }
 
 .rennenbild {
-    width: 100%;
+    width: 90%;
     position: relative;
-    margin-top: 0%;
+    margin-top: 200%;
     z-index: 5;
 }
 
@@ -425,8 +425,6 @@ html {
 body {
     width: 100%;
 }
-
-p {}
 
 a:hover {
     color: #4d92bb;
