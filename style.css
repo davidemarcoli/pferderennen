@@ -42,8 +42,9 @@ Imp-Carousel
 }
 
 
-/*Wetten seite
-==============
+/*
+Wette seite
+==========
 */
 
 .underconstruction {
@@ -52,12 +53,88 @@ Imp-Carousel
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 40%;
+    transform: scale(1.1)
 }
 
 .underconstructiontext {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
 }
+
+.underconstructiontitel {
+    font-size: 4em !important;
+}
+
+
+/*.underconstruction {
+    width: 50%;
+    height: 60vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*@media (min-width: 740px) {
+    .underconstruction {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 13.3%;
+    }
+    .underconstructiontext {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 2em;
+    }
+    .underconstructiontitel {
+        font-size: 4em !important;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 739px) {
+    .underconstruction {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20% !important;
+    }
+    .underconstructiontext {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5em;
+    }
+    .underconstructiontitel {
+        font-size: 2em !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .underconstruction {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+    }
+    .underconstructiontext {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5em;
+    }
+    .underconstructiontitel {
+        font-size: 1.5em !important;
+    }
+}*/
 
 
 /*Medien seite
@@ -394,6 +471,12 @@ h6 {
 h1 {
     font-size: 5em;
     margin-bottom: 50px;
+}
+
+@media (max-width: 765px) {
+    h1 {
+        font-size: 3em;
+    }
 }
 
 hr {
