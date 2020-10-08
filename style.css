@@ -208,6 +208,9 @@ Diagramm
 ========
 */
 
+.Haupt-text{
+    padding-bottom: 3em;
+}
 
 /* Diagramm Titel */
 .diagramm-text-Generalsponsor{
@@ -314,6 +317,17 @@ Sponsortitel animation
  .karussel-icon {
      color: #01A1C7;
  }
+
+ /*
+ VIP-Zelt
+ ========
+ */
+
+ .vipzelt-list{
+     margin-bottom: 2em;
+ }
+
+
  /*
 General=======
 */
