@@ -30,10 +30,113 @@
 }
 
 
+/*Wette seite
+=============
+*/
+
+.underconstruction {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    transition: 1s;
+}
+
+.underconstruction:hover {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    transform: scale(1.1)
+}
+
+.underconstructiontext {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+}
+
+.underconstructiontitel {
+    font-size: 4em !important;
+}
+
+
+}
+
+/*.underconstruction {
+    width: 50%;
+    height: 60vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+/*@media (min-width: 740px) {
+    .underconstruction {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 13.3%;
+    }
+    .underconstructiontext {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 2em;
+    }
+    .underconstructiontitel {
+        font-size: 4em !important;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 739px) {
+    .underconstruction {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20% !important;
+    }
+    .underconstructiontext {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5em;
+    }
+    .underconstructiontitel {
+        font-size: 2em !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .underconstruction {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+    }
+    .underconstructiontext {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5em;
+    }
+    .underconstructiontitel {
+        font-size: 1.5em !important;
+    }
+}*/
+
 /*Medien seite
 ==============
 */
-
 
 /* Brauchen wir nicht
  @media(min-width: 768px) {
@@ -57,13 +160,11 @@
      }
  }
  */
-
 .internetsponsor {
     position: relative;
     top: 7em;
     left: 5em;
 }
-
 .medien§ {
     margin-bottom: 125px;
     margin-left: 10%;
@@ -72,45 +173,37 @@
     text-decoration: none;
     color: black !important;
 }
-
 #colmedien,
 #colmedien3 {
     padding: 0 !important;
 }
-
 #colmedien3 {
     width: 100%;
 }
-
 .medientext {
     margin-left: 10%;
     text-decoration: none;
     transition: 1s;
     font-size: 14px;
 }
-
 .medientext:hover {
     text-decoration: none;
     transform: scale(1.1, 1.1);
 }
-
 .Springkonkurrenz {
     position: relative;
     top: 4em;
     left: 1em;
     width: 500px;
 }
-
 .Springkonkurrenz:hover {
     transform: scale(1.05);
 }
-
 
 /*
 Rennen seite
 ============
 */
-
 .rennen§ {
     margin-bottom: 125px;
     margin-left: 10%;
@@ -119,41 +212,38 @@ Rennen seite
     text-decoration: none;
     color: black !important;
 }
-
 .rennentext {
     margin-left: 10%;
     text-decoration: none;
     text-align: center;
     font-family: 'Comfortaa', cursive;
 }
-
+.underconstructiontitel {
+    font-size: 4em;
+    width: 100%;
+}
 
 /*
 Anlass seite
 =============
 */
-
 .Anlass-bild {
     position: relative;
     top: 8em;
     box-shadow: #28C1E5 1em 1em;
     transition: .4s;
 }
-
 .Anlass-bild:hover {
     transform: scale(1.05);
 }
-
 .Anlass-Titel {
     text-align: left;
     margin-bottom: 20px;
     color: #01A1C7 !important;
 }
 
-
 /*Parallax + Anlass
 ===================*/
-
 .parallax-image {
     background-image: url("https://cdn.unitycms.io/image/ocroped/2001,2000,1000,1000,0,0/l3ffguwQwYw/AO7shYfk421B9lpPZgUTFh.jpg");
     max-width: 100%;
@@ -166,7 +256,6 @@ Anlass seite
     filter: blur(6px);
     -webkit-filter: blur(2px);
 }
-
 .parallax-image2 {
     background-image: url("img/19-or7671.jpg");
     max-width: 100%;
@@ -177,7 +266,6 @@ Anlass seite
     margin-bottom: 0px;
     z-index: -100;
 }
-
 .parallax-image3 {
     background-image: url("img/sport_02042018_pferderennenfehraltorf_dku_online_14_.jpg");
     max-width: 100%;
@@ -191,16 +279,13 @@ Anlass seite
     -webkit-filter: blur(2px);
 }
 
-
 /*Sponsoring
 ============
 */
-
 .karousel_img {
     width: 100%;
     height: auto;
 }
-
 .karussell-titel {
     position: relative;
     top: -4em;
@@ -211,103 +296,90 @@ Anlass seite
     animation-timing-function: linear;
 }
 
-
 /*
 Diagramm
 ========
 */
-
 #diagramm-Generalsponsor {
     background-color: #FFCA43;
     height: 700px;
     text-align: center;
 }
-
 #diagramm-Hauptsponsor {
     background-color: #FFCA43;
     height: 600px;
     text-align: center;
 }
-
 #diagramm-Rennsponsor {
     background-color: #FFCA43;
     height: 500px;
     text-align: center;
 }
-
 #diagramm-Sponsor-Bronze {
     background-color: #FFCA43;
     height: 400px;
     text-align: center;
 }
-
 #diagramm-Klein-sponsor {
     background-color: #FFCA43;
     height: 300px;
     text-align: center;
 }
 
-
 /*
 Sponsortitel animation
 ========================
 */
-
 @keyframes move {
     0% {
         top: -4em;
         left: 0em;
     }
+    
     25% {
         top: -3.5em;
         left: 0em;
     }
+    
     50% {
         top: -4em;
         left: 0em;
     }
+    
     75% {
         top: -4.5em;
         left: 0em;
     }
+    
     100% {
         top: -4em;
         left: 0em;
     }
 }
-
 .karussell-titel:hover {
     transform: scale(1.05);
 }
-
 .karussel-icon {
     color: #01A1C7;
 }
 
-
 /*
 General=======
 */
-
 html {
     width: 100%;
     overflow-x: hidden;
 }
-
 body {
     width: 100%;
 }
-
 p {}
-
 a:hover {
     color: #4d92bb;
 }
-
 a:active {
     color: #06527f;
 }
-
 h1,
 h2,
 h3,
@@ -317,12 +389,10 @@ h6 {
     text-align: center;
     color: #01A1C7;
 }
-
 h1 {
     font-size: 5em;
     margin-bottom: 50px;
 }
-
 hr {
     position: absolute;
     width: 100px;
@@ -331,41 +401,33 @@ hr {
     margin-top: -50px;
 }
 
-
 /*
 Navbar
 ======
 */
-
 .navbar {
     background: #015A6F;
     z-index: 10;
     box-shadow: black 0 0 10px;
 }
-
 .navbar img {
     width: 15%;
     margin-left: 9%;
 }
-
 .navbar img:nth-child(2) {
     width: 40%;
 }
-
 .navbar ul {
     width: 100%;
 }
-
 .navbar li {
     width: 100%;
     text-align: right;
     margin-right: 9%;
 }
-
 .nav-link {
     color: white !important;
 }
-
 .navbar .dropdown-menu {
     top: 200%;
     right: 0px !important;
@@ -374,39 +436,32 @@ Navbar
     border-radius: 15px;
     overflow: hidden;
 }
-
 .navbar .dropdown-item {
     color: white !important;
     transition: .2s;
 }
-
 .navbar .dropdown-item:hover {
     background: #28C1E5AA;
 }
-
 .navbar .responsive-nav {
     width: 0;
     position: absolute;
     overflow: hidden;
 }
 
-
 /*                              
 Section
 =======
 */
-
 section {
     width: 100%;
     margin: 0 auto;
 }
-
 .carousel {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-
 .overcarousel {
     position: absolute;
     z-index: 10;
@@ -416,7 +471,6 @@ section {
     transform: translate(-50%, -50%);
     text-shadow: black 0px 0px 20px;
 }
-
 .overcarousel a {
     font-family: "Bangers", cursive;
     font-size: 3em;
@@ -426,11 +480,9 @@ section {
     transition: 0.3s;
     border-radius: 40px;
 }
-
 .overcarousel a:active {
     background: #4d92bb;
 }
-
 section .backgroundimg {
     position: relative;
     width: 100%;
@@ -439,7 +491,6 @@ section .backgroundimg {
     margin-top: -500px;
     z-index: -10;
 }
-
 .imgcontainer {
     position: absolute;
     width: 100%;
@@ -447,7 +498,6 @@ section .backgroundimg {
     overflow: hidden;
     z-index: -10;
 }
-
 .imgcontainer img {
     position: absolute;
     min-height: 100%;
@@ -456,13 +506,11 @@ section .backgroundimg {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .index-main h1 {
     color: white;
     padding-top: 10%;
     text-shadow: black 0 0 10px;
 }
-
 .index-grid {
     background: white;
     width: 60%;
@@ -472,33 +520,27 @@ section .backgroundimg {
     padding: 20px;
     text-align: justify;
 }
-
 .index-sponsor {
     width: 70%;
     margin: 5% auto;
 }
-
 .index-sponsor .row div {
     padding: 10px;
 }
-
 .index-sponsor img {
     width: 100%;
     border: 1px solid black;
     transition: .2s;
 }
-
 .index-sponsor img:hover {
     box-shadow: #28C1E5 .5em .5em;
     transform: translate(-.25em, -.25em);
 }
 
-
 /*
 Footer
 ======
 */
-
 .footerstyle {
     position: relative;
     bottom: 0;
@@ -511,54 +553,45 @@ Footer
     font-size: 0.8em;
     box-shadow: black 0 0 10px;
 }
-
 .footerstyle .row {
     width: 90%;
     margin: 0 auto;
 }
-
 .socialmedia-icon {
     height: 16px;
 }
-
 .footerstyle .col-lg-2 {
     padding: 0;
     margin: 0;
 }
-
 .footerstyle .col-lg-12 {
     text-align: center;
 }
-
 footer .container-fluid .row div {
     text-align: center;
 }
-
 footer .container-fluid .row div a {
     color: white;
     transition: .2s;
 }
-
 footer .container-fluid .row div a:hover {
     color: #05BFEB;
 }
-
 footer .container-fluid .row div img {
     text-align: center;
     z-index: 100;
 }
 
-
 /*
 Responsive
 ==========*/
-
 @media (max-width: 991px) {
     .navimg {
         position: absolute;
         width: 0;
         height: 0;
     }
+    
     .navbar .responsive-nav {
         width: 100%;
         position: relative;
@@ -567,9 +600,11 @@ Responsive
         font-size: 1.3em;
         transition: .2s;
     }
+    
     .navbar .responsive-nav:hover {
         background: #28C1E5;
     }
+    
     .dropdown {
         position: absolute;
         overflow: hidden;
@@ -577,13 +612,11 @@ Responsive
         height: 0;
     }
 }
-
 @media(max-width: 767px) {
     #rennenbild {
         width: 100%;
     }
 }
-
 @media (min-width: 768px) {
     #rennenbild {
         margin-top: 30px;
@@ -595,23 +628,19 @@ Responsive
         z-index: -10;
     }
 }
-
 #rennentext {
     margin: 50px !important;
     font-size: 1.5em;
 }
-
 .rennen§ {
     margin-bottom: 125px;
     margin: 50px !important;
     font-size: 1.35em;
     font-family: 'Rubik', sans-serif;
 }
-
 .padding {
     padding-top: 30px;
 }
-
 
 /*
     .Anlass-bild {
@@ -624,7 +653,6 @@ Responsive
   }
      
       */
-
 
 /*
 Gene    ral
@@ -645,7 +673,6 @@ body {
 }
 
 */
-
 
 /*
  .navbar img {
@@ -695,11 +722,9 @@ body {
  }
 */
 
-
 /*Parallax
                                     ==========
                                     */
-
 
 /*.parallax-image {
     background-image: url("img/Parallax-bild.jpg");
@@ -716,7 +741,6 @@ body {
 /*
                                     Section
                                     == /*                                   */
-
 
 /*
 section {
@@ -824,7 +848,6 @@ footer .container-fluid .row div img {
                                     Responsive
                                     ==========
                                     */
-
 
 /*@media (max-width: 991px) {
     .navimg {
