@@ -30,6 +30,18 @@
 }
 
 
+/*
+Imp-Carousel
+============
+*/
+
+.imp-carousel {
+    width: 60% !important;
+    margin: 0 auto;
+    box-shadow: 0 0 20px black;
+}
+
+
 /*Wetten seite
 ==============
 */
@@ -545,7 +557,6 @@ section .backgroundimg {
 
 .index-sponsor .sponsor-img {
     width: 100%;
-    border: 1px solid black;
     box-shadow: #000000 0 0 5px;
     border-radius: 5px;
     transition: .2s;
@@ -560,6 +571,7 @@ section .backgroundimg {
     box-shadow: #28C1E5 .5em .5em;
     transform: translate(-.25em, -.25em);
     border-radius: 0px;
+    border: 1px solid black;
 }
 
 
@@ -644,6 +656,9 @@ Responsive
         overflow: hidden;
         width: 0;
         height: 0;
+    }
+    .imp-carousel {
+        width: 90% !important;
     }
 }
 
