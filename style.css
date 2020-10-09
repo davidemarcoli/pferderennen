@@ -31,18 +31,7 @@
 
 
 /*
-Adressen seite
-==============
-*/
-
-.tabletitle {
-    background-color: #01A1C7;
-}
-
-
-/*
 Imp-Carousel
-============
 */
 
 .imp-carousel {
@@ -152,18 +141,11 @@ Wette seite
 */
 
 .internetsponsor {
-    position: relative;
-    top: 7em;
-    left: 5em;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 5em;
 }
 
-.medien§ {
-    margin-bottom: 125px;
-    margin-left: 10%;
-    font-size: 0.9em;
-    font-family: 'Rubik', sans-serif;
-    text-decoration: none;
-    color: black !important;
 }
 
 #colmedien,
@@ -175,29 +157,22 @@ Wette seite
     width: 100%;
 }
 
-.medientext {
-    margin-left: 10%;
-    text-decoration: none;
-    transition: 1s;
-    font-size: 14px;
-}
-
-.medientext:hover {
-    text-decoration: none;
-    transform: scale(1.1, 1.1);
-<<<<<<< HEAD
-=======
 }
 
 .Springkonkurrenz {
-    position: relative;
-    top: 4em;
-    left: 1em;
-    width: 500px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8em;
+    transition: .4s;
 }
 
 .Springkonkurrenz:hover {
     transform: scale(1.05);
+}
+
+.medien-seite-links{
+    padding-left: 10px;
 }
 
 
@@ -616,24 +591,21 @@ Navbar
 .dropdown-item {
     transition: .2s;
     color: white;
->>>>>>> 94573cf4f7846ac3f3ba88cb3546baff56ad3215
 }
 
-.Springkonkurrenz {
-    position: relative;
-    top: 4em;
-    left: 1em;
-    width: 500px;
+.navbar .nav-link {
+    color: white !important;
+    transition: .2s;
 }
 
-.Springkonkurrenz:hover {
-    transform: scale(1.05);
+.navbar .nav-link:hover {
+    color: #28C1E5 !important;
 }
 
 
-/*
-Rennen seite
-============
+/*                              
+Section
+=======
 */
 
 .rennen§ {
@@ -966,6 +938,190 @@ Navbar
 
 
 /*                              
+ /* Diagramm Titel */
+
+.diagramm-text-Generalsponsor {
+    position: relative;
+    top: -40em;
+    font-size: 20px;
+}
+
+.diagramm-text-Hauptsponsor {
+    position: relative;
+    top: -30em;
+    font-size: 20px;
+}
+
+.diagramm-text-Rennsponsor {
+    position: relative;
+    top: -20em;
+    font-size: 20px;
+}
+
+.diagramm-text-Sponsor-Bronze {
+    position: relative;
+    top: -10em;
+    font-size: 20px;
+}
+
+.diagramm-text-Kleinsponsor {
+    position: relative;
+    font-size: 20px;
+}
+
+#diagramm-Generalsponsor {
+    background-color: #FFCA43;
+    height: 700px;
+    text-align: center;
+    position: relative;
+}
+
+#diagramm-Hauptsponsor {
+    background-color: #FFCA43;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    top: 6.20em;
+    /* immer plus 6.20em */
+}
+
+#diagramm-Rennsponsor {
+    background-color: #FFCA43;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    top: 12.40em;
+}
+
+#diagramm-Sponsor-Bronze {
+    background-color: #FFCA43;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    top: 18.60em;
+}
+
+#diagramm-Klein-sponsor {
+    background-color: #FFCA43;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    top: 24.80em;
+}
+
+
+/*
+General=======
+*/
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+}
+
+a:hover {
+    color: #4d92bb;
+    text-decoration: none;
+}
+
+a:active {
+    color: #06527f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-family: "Lobster", cursive;
+    text-align: center;
+    color: #01A1C7;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 765px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+hr {
+    position: absolute;
+    width: 100px;
+    border: solid black 1px;
+    left: 40px;
+    margin-top: -50px;
+}
+
+
+/*
+Navbar
+======
+*/
+
+.navbar {
+    background: #015A6F;
+    z-index: 10;
+    box-shadow: black 0 0 10px;
+}
+
+.navbar img {
+    width: 15%;
+    margin-left: 9%;
+}
+
+.navbar img:nth-child(2) {
+    width: 40%;
+}
+
+.navbar ul {
+    width: 100%;
+}
+
+.navbar li {
+    width: 100%;
+    text-align: right;
+    margin-right: 9%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar .dropdown-menu {
+    top: 200%;
+    right: 0px !important;
+    text-align: center;
+    background: #015A6FAA;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.navbar .dropdown-item {
+    color: white !important;
+    transition: .2s;
+}
+
+.navbar .dropdown-item:hover {
+    background: #28C1E5AA;
+}
+
+.navbar .responsive-nav {
+    width: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+/*                              
 Section
 =======
 */
@@ -1161,8 +1317,64 @@ Responsive
     .imp-carousel {
         width: 90% !important;
     }
-    .footerstyle {
-        font-size: 1.2em;
+}
+
+@media(max-width: 767px) {
+    .rennenbild {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .rennenbild {
+        margin: 0 auto;
+        position: relative;
+        width: 80%;
+        z-index: -10;
+    }
+}
+
+#rennentext {
+    margin: 50px !important;
+    font-size: 1.5em;
+}
+
+.rennen§ {
+    margin-bottom: 125px;
+    margin: 50px !important;
+    font-size: 1.35em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.padding {
+    padding-top: 30px;
+}
+
+@media (max-width: 991px) {
+    .navimg {
+        position: absolute;
+        width: 0;
+        height: 0;
+    }
+    .navbar .responsive-nav {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1.3em;
+        transition: .2s;
+    }
+    .navbar .responsive-nav:hover {
+        background: #28C1E5;
+    }
+    .dropdown {
+        position: absolute;
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+    .imp-carousel {
+        width: 90% !important;
     }
 }
 
