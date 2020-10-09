@@ -175,16 +175,18 @@ Wette seite
     width: 100%;
 }
 
-.medientext {
+#medientexte {
     margin-left: 10%;
+}
+
+.medientext {
+    padding-left: 10%;
     text-decoration: none;
-    transition: 1s;
     font-size: 14px;
 }
 
 .medientext:hover {
     text-decoration: none;
-    transform: scale(1.1, 1.1);
 }
 
 .Springkonkurrenz {
