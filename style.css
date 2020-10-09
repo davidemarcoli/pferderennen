@@ -218,10 +218,12 @@ Sponsortitel animation
     cursor: pointer;
  }
 
-.vipzelt-impressionen-text{
-    position: static;
-    top: 50em;
-    left: 20em;
+
+.vipzelt-bild-beschreibung{
+    font-size: 2em;
+    position: relative;
+    top: 5em;
+    left: 4em;
 }
  /*
 General=======
