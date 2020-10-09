@@ -196,8 +196,54 @@ Wette seite
     width: 500px;
 }
 
+<<<<<<< HEAD
 .Springkonkurrenz:hover {
     transform: scale(1.05);
+=======
+<<<<<<< HEAD
+.Springkonkurrenz:hover {
+    transform: scale(1.05);
+=======
+
+
+
+
+/*
+Rennen seite
+=======
+ @media (max-width: 767px) {
+     #rennenbild {
+         width: 100%;
+     }
+ }
+ 
+ @media (min-width: 768px) {
+     .rennendiv {
+         margin-top: 60%;
+         margin-left: 50%;
+         margin-right: 40%;
+         position: absolute;
+         width: 80%;
+         z-index: -10;
+         bottom: -150px;
+         text-align: center;
+         overflow: hidden;
+     }
+ }
+ 
+ .rennenbild {
+     width: 100%;
+ }
+ 
+This is a test
+ /*
+Adressen seite
+*/
+
+.tabletitle {
+    background-color: #01A1C7;
+>>>>>>> 12a386620d0ff8bd9068d5f9d175090896a610e0
+>>>>>>> 219f1eb8f00324fe104a6a1c91e039f8d4b7665d
 }
 
 
