@@ -9,27 +9,34 @@
 
 @media (min-width: 768px) {
     .rennendiv {
-        margin-top: 100%;
+        margin-top: 60%;
         margin-left: 50%;
         margin-right: 40%;
         position: absolute;
-        width: 100%;
-        z-index: 2;
-        bottom: -60%;
+        width: 80%;
+        z-index: -10;
+        bottom: -150px;
         text-align: center;
         overflow: hidden;
     }
 }
 
 .rennenbild {
-    width: 90%;
-    position: relative;
-    margin-top: 200%;
-    z-index: 5;
+    width: 100%;
 }
 
 .padding {
     padding-top: 30px;
+}
+
+
+/*
+Adressen seite
+==============
+*/
+
+.tabletitle {
+    background-color: #01A1C7;
 }
 
 
@@ -146,7 +153,8 @@ Wette seite
 
 .internetsponsor {
     position: relative;
-    left: 10%;
+    top: 7em;
+    left: 5em;
 }
 
 .medien§ {
@@ -418,13 +426,14 @@ General=======
 
 html {
     width: 100%;
-    height: 100%;
     overflow-x: hidden;
 }
 
 body {
     width: 100%;
 }
+
+p {}
 
 a:hover {
     color: #4d92bb;
