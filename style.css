@@ -29,6 +29,7 @@
     padding-top: 30px;
 }
 
+
 /*
 Adressen seite
 ==============
@@ -37,6 +38,7 @@ Adressen seite
 .tabletitle {
     background-color: #01A1C7;
 }
+
 
 /*
 Imp-Carousel
@@ -48,6 +50,7 @@ Imp-Carousel
     margin: 0 auto;
     box-shadow: 0 0 20px black;
 }
+
 
 /*
 Wette seite
@@ -143,6 +146,7 @@ Wette seite
     }
 }*/
 
+
 /*Medien seite
 ==============
 */
@@ -153,8 +157,6 @@ Wette seite
     padding-top: 5em;
 }
 
-}
-
 #colmedien,
 #colmedien3 {
     padding: 0 !important;
@@ -162,8 +164,6 @@ Wette seite
 
 #colmedien3 {
     width: 100%;
-}
-
 }
 
 .Springkonkurrenz {
@@ -178,14 +178,11 @@ Wette seite
     transform: scale(1.05);
 }
 
-<<<<<<< HEAD
-=======
-.medien-seite-links{
+.medien-seite-links {
     padding-left: 10px;
 }
 
 
->>>>>>> 13331689ee790d2126d8d7d5f72dbb8a28f6e980
 /*
 Rennen seite
 ============
@@ -230,6 +227,7 @@ Anlass seite
     color: #01A1C7 !important;
 }
 
+
 /*Parallax + Anlass
 ===================*/
 
@@ -270,30 +268,28 @@ Anlass seite
     -webkit-filter: blur(2px);
 }
 
+
 /*Sponsoring
 ============
 */
+
 @keyframes move {
     0% {
         top: -4em;
         left: 0em;
     }
-
     25% {
         top: -3.5em;
         left: 0em;
     }
-
     50% {
         top: -4em;
         left: 0em;
     }
-
     75% {
         top: -4.5em;
         left: 0em;
     }
-
     100% {
         top: -4em;
         left: 0em;
@@ -319,6 +315,7 @@ Anlass seite
     animation-timing-function: linear;
 }
 
+
 /*
 VIP-Zelt
 ========
@@ -328,12 +325,15 @@ VIP-Zelt
     cursor: pointer;
 }
 
+
 /*
 Diagramm
 ========
 */
 
+
 /* Diagramm Titel */
+
 .diagramm-text-Generalsponsor {
     position: relative;
     top: -40em;
@@ -403,6 +403,7 @@ Diagramm
     top: 24.80em;
 }
 
+
 /*
 General=======
 */
@@ -415,8 +416,6 @@ html {
 body {
     width: 100%;
 }
-
-p {}
 
 a:hover {
     color: #4d92bb;
@@ -455,6 +454,7 @@ hr {
     left: 40px;
     margin-top: -50px;
 }
+
 
 /*
 Navbar
@@ -513,6 +513,7 @@ Navbar
     position: absolute;
     overflow: hidden;
 }
+
 
 /*                              
 Section
@@ -624,6 +625,7 @@ section .backgroundimg {
     border: 1px solid black;
 }
 
+
 /*
 Footer
 ======
@@ -678,6 +680,7 @@ footer .container-fluid .row div img {
     z-index: 100;
 }
 
+
 /*
 Responsive
 ==========*/
@@ -688,7 +691,6 @@ Responsive
         width: 0;
         height: 0;
     }
-
     .navbar .responsive-nav {
         width: 100%;
         position: relative;
@@ -697,23 +699,19 @@ Responsive
         font-size: 1.3em;
         transition: .2s;
     }
-
     .navbar .responsive-nav:hover {
         background: #28C1E5;
     }
-
     .dropdown {
         position: absolute;
         overflow: hidden;
         width: 0;
         height: 0;
     }
-
     .imp-carousel {
         width: 90% !important;
     }
-
-    .footerstyle  {
+    .footerstyle {
         font-size: 1.2em;
     }
 }
