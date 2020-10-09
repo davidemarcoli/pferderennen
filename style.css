@@ -152,9 +152,18 @@ Wette seite
 */
 
 .internetsponsor {
-    width: 50%;
-    padding-left: 10px;
-    padding-top: 5em;
+    position: relative;
+    top: 7em;
+    left: 5em;
+}
+
+.medien§ {
+    margin-bottom: 125px;
+    margin-left: 10%;
+    font-size: 0.9em;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: black !important;
 }
 
 #colmedien,
@@ -166,7 +175,6 @@ Wette seite
     width: 100%;
 }
 
-<<<<<<< HEAD
 .medientext {
     margin-left: 10%;
     text-decoration: none;
@@ -184,25 +192,10 @@ Wette seite
     top: 4em;
     left: 1em;
     width: 500px;
-=======
-.Springkonkurrenz {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 8em;
-    transition: .4s;
->>>>>>> 44d7d1ce356f6e98f92d4e94d86ae9e4e1983767
 }
 
 .Springkonkurrenz:hover {
     transform: scale(1.05);
-<<<<<<< HEAD
-=======
-}
-
-.medien-seite-links {
-    padding-left: 10px;
->>>>>>> 44d7d1ce356f6e98f92d4e94d86ae9e4e1983767
 }
 
 
@@ -439,6 +432,8 @@ html {
 body {
     width: 100%;
 }
+
+p {}
 
 a:hover {
     color: #4d92bb;
