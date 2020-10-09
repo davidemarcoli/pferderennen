@@ -18,8 +18,41 @@
  
  .padding {
      padding-top: 30px;
+     padding-left: 10px;
  }
  /*Medien seite
+ =============
+ */
+
+ .Springkonkurrenz{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8em;
+    transition: .4s;
+ }
+
+ .Springkonkurrenz:hover{
+    transform: scale(1.05);
+ }
+
+ .internetsponsor{
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 5em;
+ }
+
+ .internetsponsor-center{
+    text-align: center;
+ }
+
+.medien-seite-links{
+    padding-left: 10px;
+}
+
+
+
+/*
 Anlass seite
 =============
 */
@@ -225,6 +258,7 @@ Sponsortitel animation
     top: 5em;
     left: 4em;
 }
+
  /*
 General=======
 */
