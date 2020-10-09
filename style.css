@@ -25,10 +25,6 @@
     width: 100%;
 }
 
-.padding {
-    padding-top: 30px;
-}
-
 
 /*
 Adressen seite
@@ -82,19 +78,40 @@ Wette seite
 ==============
 */
 
-.internetsponsor {
-    position: relative;
-    top: 7em;
-    left: 5em;
+.padding {
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
-.medien§ {
-    margin-bottom: 125px;
-    margin-left: 10%;
-    font-size: 0.9em;
-    font-family: 'Rubik', sans-serif;
-    text-decoration: none;
-    color: black !important;
+.internetsponsor {
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 5em;
+}
+
+.internetsponsor-center {
+    text-align: center;
+}
+
+.medien-seite-links {
+    padding-left: 10px;
+}
+
+.email-medien-seite {
+    position: relative;
+    top: 1em;
+    padding-left: 10px;
+}
+
+.medien-seite-links {
+    padding-left: 10px;
+}
+
+.medien-seite-bild-beschreibung {
+    font-size: 1.5em;
+    position: relative;
+    top: -4em;
+    left: 1em;
 }
 
 #colmedien,
@@ -106,29 +123,21 @@ Wette seite
     width: 100%;
 }
 
-#medientexte {
-    margin-left: 10%;
-}
-
-.medientext {
-    padding-left: 10%;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.medientext:hover {
-    text-decoration: none;
-}
-
 .Springkonkurrenz {
-    position: relative;
-    top: 4em;
-    left: 1em;
-    width: 500px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8em;
+    transition: .4s;
 }
 
 .Springkonkurrenz:hover {
     transform: scale(1.05);
+}
+
+.medien-seite-links {
+    padding-left: 10px;
+    padding-top: 4em;
 }
 
 
@@ -222,6 +231,10 @@ Anlass seite
 ============
 */
 
+.Haupt-text {
+    padding-bottom: 12em;
+}
+
 @keyframes move {
     0% {
         top: -4em;
@@ -272,6 +285,13 @@ VIP-Zelt
 
 .vip-zelt-bild:hover {
     cursor: pointer;
+}
+
+.vipzelt-bild-beschreibung {
+    font-size: 2em;
+    position: relative;
+    top: 5em;
+    left: 4em;
 }
 
 
@@ -693,8 +713,4 @@ Responsive
     margin: 50px !important;
     font-size: 1.35em;
     font-family: 'Rubik', sans-serif;
-}
-
-.padding {
-    padding-top: 30px;
 }
