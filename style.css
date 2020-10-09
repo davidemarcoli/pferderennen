@@ -148,18 +148,11 @@ Wette seite
 */
 
 .internetsponsor {
-    position: relative;
-    top: 7em;
-    left: 5em;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 5em;
 }
 
-.medien§ {
-    margin-bottom: 125px;
-    margin-left: 10%;
-    font-size: 0.9em;
-    font-family: 'Rubik', sans-serif;
-    text-decoration: none;
-    color: black !important;
 }
 
 #colmedien,
@@ -171,29 +164,28 @@ Wette seite
     width: 100%;
 }
 
-.medientext {
-    margin-left: 10%;
-    text-decoration: none;
-    transition: 1s;
-    font-size: 14px;
-}
-
-.medientext:hover {
-    text-decoration: none;
-    transform: scale(1.1, 1.1);
 }
 
 .Springkonkurrenz {
-    position: relative;
-    top: 4em;
-    left: 1em;
-    width: 500px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8em;
+    transition: .4s;
 }
 
 .Springkonkurrenz:hover {
     transform: scale(1.05);
 }
 
+<<<<<<< HEAD
+=======
+.medien-seite-links{
+    padding-left: 10px;
+}
+
+
+>>>>>>> 13331689ee790d2126d8d7d5f72dbb8a28f6e980
 /*
 Rennen seite
 ============
